@@ -15,12 +15,12 @@ Repository for the NETS213 Final Project: Crowd vs Machine. This project aims to
 A good guessed price was defined as one within 1 standard deviation of the guessed prices for a given home. Workers were assigned weights equal to the reciprocal of their average distance from the mean.
 
 - QC_input: Sample input for quality control module, csv with sample data outputted by the MTurk HIT, including workerId and the home features the workers were presented with in the HIT
-- QC_ouptut: Sample output from our QC module (removal of bad results), csv with columns workerId (corresponding to the MTurk worker who completed the HIT), answerPrice (the worker's guess for the house), and zpid (Zillow ID of the home)
-- QC_worker_weights: csv mapping workers to their computed weights
+- QC1_ouptut: Sample output from our QC module (removal of bad results), csv with columns workerId (corresponding to the MTurk worker who completed the HIT), answerPrice (the worker's guess for the house), and zpid (Zillow ID of the home)
+- QC2_output: csv with columns mapping workers to quality (their computed worker weight)
 
 #### Aggregation
 We aggregated by taking the mean of the good workers' answers as well as the weighted average accounting for worker weights.
-- AG_input: Sample input for aggregation module
-- AG_averages: csv mapping house ID to the average over all good workers, as filtered by QC_output
-- AG_weighted_averages: csv mapping house ID to the weighted average over all workers, accounting for worker averages computed in QC_worker_weights
+
+- AG1_output: csv mapping house ID to the average over all good workers, using QC1_output as input
+- AG2_output: csv mapping house ID to the weighted average over all workers, using qualities computed in QC2_output
 
