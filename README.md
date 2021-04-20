@@ -12,7 +12,7 @@ Repository for the NETS213 Final Project: Crowd vs Machine. This project aims to
 - quality_aggregation_module: Python code to perform quality control and aggregation computations
 
 #### Quality Control
-A good guessed price was defined as one within 1 standard deviation of the guessed prices for a given home. Workers were assigned weights based on how many good results they provided, such that worker weight = worker's number of good answers / worker's total answers.
+A good guessed price was defined as one within 1 standard deviation of the guessed prices for a given home. Workers were assigned weights equal to the inverse of their average distance from the mean.
 
 - QC_input: Sample input for quality control module, csv with sample data outputted by the MTurk HIT, including workerId and the home features the workers were presented with in the HIT
 - QC_ouptut: Sample output from our QC module (removal of bad results), csv with columns workerId (corresponding to the MTurk worker who completed the HIT), answerPrice (the worker's guess for the house), and zpid (Zillow ID of the home)
