@@ -24,3 +24,8 @@ We aggregated by taking the mean of the good workers' answers as well as the wei
 - AG1_output: csv mapping house ID to the average over all good workers, using QC1_output as input
 - AG2_output: csv mapping house ID to the weighted average over all workers, using qualities computed in QC2_output
 
+
+### mturk/directory
+- design-layout: HTML code used in the HIT design
+- sample_hit: Screenshot of a sample HIT displayed to MTurkers
+
