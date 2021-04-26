@@ -28,4 +28,5 @@ We aggregated by taking the mean of the good workers' answers as well as the wei
 ### mturk/directory
 - design-layout: HTML code used in the HIT design
 - README.md: This file includes instructions on how a crowd worker can make contributions to our project, and a link to a training video for new members of the crowd
+- sample-hit: Screenshot of a sample HIT
 
