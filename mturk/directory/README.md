@@ -5,5 +5,5 @@ Our goal is to assess whether crowd wisdom or machine learning is more accurate 
 ## Link to our tasks on Mechanical Turk Worker Sandbox: 
 https://workersandbox.mturk.com/projects/3OBCKNXF168M6HK6ZTBROSE99E73J4/tasks/3JVP4ZJHEW9TPE2RGIYYZAEMY8V0I2?assignment_id=3NGI5ARFT1MO0987FYXJBWUNNA41PG&auto_accept=true
 ## Link to our training video for new members of the crowd:
-
+https://vimeo.com/542343130
 
