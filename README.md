@@ -25,5 +25,10 @@ We aggregated by taking the mean of the good workers' answers as well as the wei
 - AG2_output: csv mapping house ID to the weighted average over all workers, using qualities computed in QC2_output
 
 
+### mturk/directory
+- design-layout: HTML code used in the HIT design
+- README.md: This file includes instructions on how a crowd worker can make contributions to our project, and a link to a training video for new members of the crowd
+- sample-hit: Screenshot of a sample HIT
+
 #### Neural Network
 All code for the data augmentation and downloading are provided the data_downloader.py and resize_data.py files. The neural network models are defined in the houseing_price_nerual_newtork.py file. It contains a Linear network to process the qualitative features as well as a convolutional neural network to process they images. 
