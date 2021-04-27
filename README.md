@@ -24,3 +24,6 @@ We aggregated by taking the mean of the good workers' answers as well as the wei
 - AG1_output: csv mapping house ID to the average over all good workers, using QC1_output as input
 - AG2_output: csv mapping house ID to the weighted average over all workers, using qualities computed in QC2_output
 
+
+#### Neural Network
+All code for the data augmentation and downloading are provided the data_downloader.py and resize_data.py files. The neural network models are defined in the houseing_price_nerual_newtork.py file. It contains a Linear network to process the qualitative features as well as a convolutional neural network to process they images. 
