@@ -29,7 +29,6 @@ We aggregated by taking the mean of the good workers' answers as well as the wei
 - design-layout: HTML code used in the HIT design
 - README.md: This file includes instructions on how a crowd worker can make contributions to our project, and a link to a training video for new members of the crowd
 - sample-hit: Screenshot of a sample HIT
-Note: the data from these crowdsourcing tasks will be compared with those from the following neural network, a non-crowdsourcing method. We will analyze how good the crowd is at making predictions and compare these results with the accuracy of the neural network in making predictions on the same inputs.
 
 #### Neural Network
-All code for the data augmentation and downloading are provided the data_downloader.py and resize_data.py files. The neural network models are defined in the houseing_price_nerual_newtork.py file. It contains a Linear network to process the qualitative features as well as a convolutional neural network to process they images. 
+All code for the data augmentation and downloading are provided the data_downloader.py and resize_data.py files. The neural network models are defined in the houseing_price_nerual_newtork.py file. It contains a Linear network to process the qualitative features as well as a convolutional neural network to process they images. Note: the data from this non-crowdsourcing neural network will be compared with those from the crowdsourcing MTurk tasks. We will analyze how good the crowd is at making predictions and compare these results with the accuracy of the neural network in making predictions on the same inputs.
