@@ -19,7 +19,7 @@ A good guessed price was defined as one within 1 standard deviation of the guess
 - QC2_output: csv with columns mapping workers to quality (their computed worker weight)
 
 #### Aggregation
-We aggregated by taking the mean of the good workers' answers as well as the weighted average accounting for worker weights.
+We aggregated by taking the mean of the good answers as well as the weighted average accounting for worker weights.
 
 - AG1_output: csv mapping house ID to the average over all good workers, using QC1_output as input
 - AG2_output: csv mapping house ID to the weighted average over all workers, using qualities computed in QC2_output
